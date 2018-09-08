@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title                    : "Nastran CoFE"
+title_separator          : "_"
+name                     : &name "Anthony Ricciardi" # &name is a YAML anchor which can be *referenced later
+email: vtpasquale@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  User and developer documentation for Nastran CoFE, a standalone 
+  finite element code for structural analysis and design. 
+  CoFE is implemented in MATLAB and uses NASTRAN model input 
+  formatting.
+github_username:  vtpasquale
+  
+# Local Server
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+# theme: minimal-mistakes-jekyll
+#
+# O R
+#
+# GitHub Server
+# baseurl: "http://vtpasquale.github.io" # the subpath of your site, e.g. /blog
+url: "cofeV5docs" # the base hostname & protocol for your site, e.g. http://example.com
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Build settings
+markdown: kramdown
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+plugins:
+  - jekyll-feed
+
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  github           : "vtpasquale"
+  linkedin         : "https://www.linkedin.com/in/aeroelasticity/"
+#   youtube          :
+  
+  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
