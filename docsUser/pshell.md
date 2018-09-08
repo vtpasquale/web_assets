@@ -1,6 +1,7 @@
 ---
 title: PSHELL
 layout: single
+permalink: /docsUser/pshell/
 classes: wide
 sidebar:
   nav: "docs"
