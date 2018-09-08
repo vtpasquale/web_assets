@@ -1,6 +1,6 @@
 main:
   - title: "Quick-Start Guide"
-    url: index/
+    url: /
   - title: "User's Guide"
     url: /docsUser/userGuide/
   - title: "Developer's Guide"
