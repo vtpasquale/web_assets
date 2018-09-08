@@ -32,8 +32,8 @@ github_username:  vtpasquale
 # O R
 #
 # GitHub Server
-# baseurl: "http://vtpasquale.github.io" # the subpath of your site, e.g. /blog
-url: "cofeV5docs" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "cofeV5docs" # the subpath of your site, e.g. /blog
+# url: "http://vtpasquale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: "mmistakes/minimal-mistakes"
 
 # Build settings
