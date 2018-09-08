@@ -1,6 +1,7 @@
 ---
 title: Naming Convention
 layout: single
+permalink: /docsDeveloper/namingConvention/
 classes: wide
 ---
 
