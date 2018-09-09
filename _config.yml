@@ -33,13 +33,18 @@ github_username:  vtpasquale
 #
 # GitHub Server
 baseurl: "cofeV5docs" # the subpath of your site, e.g. /blog
-# url: "http://vtpasquale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://vtpasquale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: "mmistakes/minimal-mistakes"
 
 # Build settings
 markdown: kramdown
 minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
+# My variables
+navbar_logo: "/assets/images/cofeLogo.png"
+# navbar_logo: "/assets/images/cofeLogoCream.png" # use for dark skins
+
+# Plugins
 plugins:
   - jekyll-feed
 
