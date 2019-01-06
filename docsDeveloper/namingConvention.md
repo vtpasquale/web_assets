@@ -11,6 +11,29 @@ The convention is modified from the Java convention suggested by [Sun Microsyste
 
 {% include_relative namingConventionTable.html %}
 
+
+## Special Class Names for Nastran Input Entries 
+Classes representing Nastran input entries have special names which should be documented here. 
+
+## Special Function Names for Hierarchical Interface Functions
+
+CoFE uses a hierarchical approach for interfacing with heterogeneous arrays of objects. Heterogeneous arrays are composed of objects that differ in specific class, but are all subclasses of a common root superclass (the common superclass derives directly from matlab.mixin.Heterogeneous). A separate CoFE documentation page should be dedicated to object composition so that this Naming Convention page is not inflated with this information. 
+
+In CoFE, certain subclass methods (of heterogeneous array objects) are invoked through superclass interface methods (that are sealed at the superclass level). In these cases, the subclass method name is the superclass interface method name appended with `_sub`. For example, the following `echo()` function is a sealed superclass method used to echo (i.e., print) data from a heterogeneous array of objects. All subclasses implement an `echo_sub()` function, which is called by `echo()`.  
+
+```matlab
+    methods (Sealed = true)
+        function echo(obj,fid)
+	% Execute entry.echo_sub(fid) for all heterogeneous entry objects in array
+            [n,m]=size(obj);
+            if m > 1; error('This function can only handle nx1 arrays of objects.'); end
+            for i=1:n
+                echo_sub(obj(i),fid);
+            end
+        end
+    end
+```
+
 ## Special Variable Names
 Special variable names are used in the following cases:
 
