@@ -46,7 +46,12 @@ navbar_logo: "/assets/images/cofeLogo.png"
 
 # Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Site Author
 author:
