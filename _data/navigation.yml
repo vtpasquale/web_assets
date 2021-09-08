@@ -1,9 +1,9 @@
 main:
   - title: "Quick-Start Guide"
     url: /
-  - title: "User's Guide"
+  - title: "User Guide"
     url: /docsUser/userGuide/
-  - title: "Developer's Guide"
+  - title: "Developer Guide"
     url: /docsDeveloper/namingConvention/
 
 docs:
@@ -19,63 +19,7 @@ docs:
 
   - title: Bulk Data Entries
     children:
+      - title: "MDLPRM"
+        url: /docsUser/mdlprm/
       - title: "PSHELL"
-        url: /docsUser/pshell/
-      - title: "PSHELL1"
-        url: /docsUser/pshell/
-      - title: "PSHELL2"
-        url: /docsUser/pshell/
-      - title: "PSHELL3"
-        url: /docsUser/pshell/
-      - title: "PSHELL4"
-        url: /docsUser/pshell/
-      - title: "PSHELL5"
-        url: /docsUser/pshell/
-      - title: "PSHELL"
-        url: /docsUser/pshell/
-      - title: "PSHELL6"
-        url: /docsUser/pshell/
-      - title: "PSHELL7"
-        url: /docsUser/pshell/
-      - title: "PSHELL8"
-        url: /docsUser/pshell/
-      - title: "PSHELL9"
-        url: /docsUser/pshell/
-      - title: "PSHELL10"
-        url: /docsUser/pshell/
-      - title: "PSHELL11"
-        url: /docsUser/pshell/
-      - title: "PSHELL12"
-        url: /docsUser/pshell/
-      - title: "PSHELL13"
-        url: /docsUser/pshell/
-      - title: "PSHELL14"
-        url: /docsUser/pshell/
-      - title: "PSHELL15"
-        url: /docsUser/pshell/
-      - title: "PSHELL21"
-        url: /docsUser/pshell/
-      - title: "PSHELL22"
-        url: /docsUser/pshell/
-      - title: "PSHELL23"
-        url: /docsUser/pshell/
-      - title: "PSHELL24"
-        url: /docsUser/pshell/
-      - title: "PSHELL25"
-        url: /docsUser/pshell/
-      - title: "PSHELL"
-        url: /docsUser/pshell/
-      - title: "PSHELL26"
-        url: /docsUser/pshell/
-      - title: "PSHELL31"
-        url: /docsUser/pshell/
-      - title: "PSHELL32"
-        url: /docsUser/pshell/
-      - title: "PSHELL33"
-        url: /docsUser/pshell/
-      - title: "PSHELL34"
-        url: /docsUser/pshell/
-      - title: "PSHELL35"
-        url: /docsUser/pshell/
-      - title: "PSHELL36"
         url: /docsUser/pshell/
