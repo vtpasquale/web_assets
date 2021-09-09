@@ -1,1 +1,1 @@
-This is a temporary repository for developing CoFE v5 documentation. Testing deployment on gh-pages branch.
+Repository for storing web images, image source files, and tinkering with web hosting.
